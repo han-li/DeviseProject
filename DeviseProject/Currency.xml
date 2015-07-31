@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<CurrencyConverter>
+  <Currency name="EUR/USD">1.0932</Currency>
+  <Currency name="USD/EUR">0.9147</Currency>
+  <Currency name="EUR/JPY">135.759</Currency>
+</CurrencyConverter>

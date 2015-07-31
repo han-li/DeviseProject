@@ -1,0 +1,6 @@
+C:\Users\J. Justine\Documents\Visual Studio 2015\Projects\DeviseProject\Devise.Configuration\bin\Debug\Devise.Configuration.dll.config
+C:\Users\J. Justine\Documents\Visual Studio 2015\Projects\DeviseProject\Devise.Configuration\bin\Debug\Devise.Configuration.dll
+C:\Users\J. Justine\Documents\Visual Studio 2015\Projects\DeviseProject\Devise.Configuration\bin\Debug\Devise.Configuration.pdb
+C:\Users\J. Justine\Documents\Visual Studio 2015\Projects\DeviseProject\Devise.Configuration\obj\Debug\Devise.Configuration.csprojResolveAssemblyReference.cache
+C:\Users\J. Justine\Documents\Visual Studio 2015\Projects\DeviseProject\Devise.Configuration\obj\Debug\Devise.Configuration.dll
+C:\Users\J. Justine\Documents\Visual Studio 2015\Projects\DeviseProject\Devise.Configuration\obj\Debug\Devise.Configuration.pdb

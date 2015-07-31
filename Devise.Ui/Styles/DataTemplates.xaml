@@ -1,0 +1,30 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:viewModels="clr-namespace:Devise.Ui.ViewModels"
+                    xmlns:converters="clr-namespace:Devise.Ui.Converters">
+
+    <converters:EnumToObjectConverter x:Key="EnumToVisibilityConverter" MatchedObject="{x:Static Visibility.Collapsed}" UnmatchedObject="{x:Static Visibility.Visible}"/>
+    
+    <DataTemplate x:Key="SourceDataTemplate" DataType="viewModels:DeviseCommandViewModel">
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Button Grid.Column="0" 
+                    Margin="1" Padding="1"
+                    Content="X"
+                    Command="{Binding Path=Parent.RemoveCommand}"
+                    CommandParameter="{Binding}"
+                    Visibility="{Binding Path=Removable, Converter={StaticResource EnumToVisibilityConverter}, ConverterParameter=False}"/>
+            <TextBox Grid.Column="1"
+                     Text="{Binding Path=Source}"/>
+        </Grid>
+    </DataTemplate>
+
+    <DataTemplate x:Key="TargetDataTemplate" DataType="viewModels:DeviseCommandViewModel">
+        <TextBox IsEnabled="False" 
+                 Text="{Binding Path=Target, Mode=OneWay}"/>
+    </DataTemplate>
+
+</ResourceDictionary>

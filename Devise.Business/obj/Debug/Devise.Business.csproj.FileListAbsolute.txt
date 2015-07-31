@@ -1,0 +1,5 @@
+C:\Users\J. Justine\Documents\Visual Studio 2015\Projects\DeviseProject\Devise.Business\bin\Debug\Devise.Business.dll
+C:\Users\J. Justine\Documents\Visual Studio 2015\Projects\DeviseProject\Devise.Business\bin\Debug\Devise.Business.pdb
+C:\Users\J. Justine\Documents\Visual Studio 2015\Projects\DeviseProject\Devise.Business\obj\Debug\Devise.Business.dll
+C:\Users\J. Justine\Documents\Visual Studio 2015\Projects\DeviseProject\Devise.Business\obj\Debug\Devise.Business.pdb
+C:\Users\J. Justine\Documents\Visual Studio 2015\Projects\DeviseProject\Devise.Business\obj\Debug\Devise.Business.csprojResolveAssemblyReference.cache
